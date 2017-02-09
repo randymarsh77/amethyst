@@ -1,0 +1,53 @@
+.app-container {
+	background: black; 
+	display: flex;
+	height: 100%;
+	width: 100%;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.cover-blur {
+	width: 100%;
+	height: 100%;
+	-webkit-filter: blur(50px);
+}
+
+.cover {
+	width: 100%;
+	z-index: 1;
+	-webkit-filter: opacity(.7);
+	-webkit-filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
+}
+
+.status-container {
+	align-self: flex-start;
+	width: 100%;
+}
+
+.status {
+	-webkit-filter: invert(25%);
+	text-align: center;
+	color: black;
+	font-family: sans-serif;
+	mix-blend-mode: difference;
+}
+
+.button-container {
+}
+
+.button {
+	-webkit-filter: invert(25%);
+	mix-blend-mode: difference;
+	background: none;
+	border: none;
+}
+
+.art-container {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}

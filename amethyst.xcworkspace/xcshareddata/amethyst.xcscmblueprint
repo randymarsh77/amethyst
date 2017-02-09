@@ -1,0 +1,149 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "058CB0D217890EBA2F66386F121F94B552CD5802",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6C8B0E2578136363F369AB00463942A9D727D3F6" : 9223372036854775807,
+    "6CE81E1B624FE87CFE286DC395997020DC557FF4" : 9223372036854775807,
+    "E03CE12C875E789E2BFB90879E7CC2D813D0D5BC" : 9223372036854775807,
+    "7BEE026E597E4C2D478A04EDE159FEC4025B0D57" : 9223372036854775807,
+    "EDBB837CC9523B26FDD46406AD89803B25A0761D" : 9223372036854775807,
+    "AB73A11E4B29B93660CF6247E76791E6E4E3A0CE" : 9223372036854775807,
+    "9F23988BA633E46CC9F81941EA01508D899411B8" : 9223372036854775807,
+    "0C50BF61B5C337BE2FF3C68CE76F7646C572F611" : 9223372036854775807,
+    "8FE2B4BB55A3C9D7B3B78FD1E2302636E924BDDC" : 9223372036854775807,
+    "9E2B1CDBC2CF00B36419E7CA6BB226A8A6107176" : 9223372036854775807,
+    "058CB0D217890EBA2F66386F121F94B552CD5802" : 9223372036854775807,
+    "FE6ECA89E8020B4CCF7FCCAE719C110C0223C495" : 9223372036854775807,
+    "1BA7CC21F4AD436D80C40C4307C9535F5C6C1D15" : 9223372036854775807,
+    "80F75E7A2BB39ACCE091CBB2EC04AE4AE0C603AE" : 9223372036854775807,
+    "D6013F96FF92FA92522D9441B27DE3E04159A52D" : 9223372036854775807,
+    "AB53A95ABBDEF88D1DB2C6A710EEF9E4317EB6A0" : 9223372036854775807,
+    "4A92FFEFEDA642B6060BC588D7B46C0E339C4E29" : 9223372036854775807,
+    "866561609FC4DDDF37DA427655A70644CE7313D3" : 9223372036854775807,
+    "2E5967A6B45EFD02E84832070A099F5AF17AFEDA" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4602EDAC-DE9A-445E-88DC-99A0BC2D14D1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6C8B0E2578136363F369AB00463942A9D727D3F6" : "amethyst\/lib\/Packages\/CAsync-1.0.1\/",
+    "6CE81E1B624FE87CFE286DC395997020DC557FF4" : "amethyst\/lib\/Packages\/Sockets-1.1.4\/",
+    "E03CE12C875E789E2BFB90879E7CC2D813D0D5BC" : "amethyst\/lib\/Packages\/GlossSerializer-0.1.0\/",
+    "7BEE026E597E4C2D478A04EDE159FEC4025B0D57" : "amethyst\/lib\/Packages\/Async-1.1.0\/",
+    "EDBB837CC9523B26FDD46406AD89803B25A0761D" : "amethyst\/lib\/Packages\/Time-1.0.0\/",
+    "AB73A11E4B29B93660CF6247E76791E6E4E3A0CE" : "amethyst\/lib\/Packages\/Fetch-0.0.1\/",
+    "9F23988BA633E46CC9F81941EA01508D899411B8" : "amethyst\/lib\/Packages\/iTunes-0.0.1\/",
+    "0C50BF61B5C337BE2FF3C68CE76F7646C572F611" : "amethyst\/lib\/Packages\/Cast-1.0.1\/",
+    "8FE2B4BB55A3C9D7B3B78FD1E2302636E924BDDC" : "amethyst\/lib\/Packages\/Jay-1.0.1\/",
+    "9E2B1CDBC2CF00B36419E7CA6BB226A8A6107176" : "amethyst\/lib\/Packages\/Scope-1.0.1\/",
+    "058CB0D217890EBA2F66386F121F94B552CD5802" : "amethyst\/",
+    "FE6ECA89E8020B4CCF7FCCAE719C110C0223C495" : "amethyst\/lib\/Packages\/Spectrum-0.0.2\/",
+    "1BA7CC21F4AD436D80C40C4307C9535F5C6C1D15" : "amethyst\/lib\/Packages\/IDisposable-1.0.1\/",
+    "80F75E7A2BB39ACCE091CBB2EC04AE4AE0C603AE" : "amethyst\/lib\/Packages\/PubSubCache-0.0.2\/",
+    "D6013F96FF92FA92522D9441B27DE3E04159A52D" : "amethyst\/lib\/Packages\/Streams-0.0.9\/",
+    "AB53A95ABBDEF88D1DB2C6A710EEF9E4317EB6A0" : "amethyst\/lib\/Packages\/Using-1.0.3\/",
+    "4A92FFEFEDA642B6060BC588D7B46C0E339C4E29" : "amethyst\/lib\/Packages\/Cancellation-1.0.0\/",
+    "866561609FC4DDDF37DA427655A70644CE7313D3" : "amethyst\/lib\/Packages\/InMemoryCache-0.0.2\/",
+    "2E5967A6B45EFD02E84832070A099F5AF17AFEDA" : "amethyst\/lib\/Packages\/WKInterop-0.1.3\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Amethyst",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Amethyst.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/randymarsh77\/amethyst.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "058CB0D217890EBA2F66386F121F94B552CD5802"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/randymarsh77\/cast",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0C50BF61B5C337BE2FF3C68CE76F7646C572F611"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/randymarsh77\/idisposable",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1BA7CC21F4AD436D80C40C4307C9535F5C6C1D15"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/randymarsh77\/wkinterop",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2E5967A6B45EFD02E84832070A099F5AF17AFEDA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/randymarsh77\/cancellation",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4A92FFEFEDA642B6060BC588D7B46C0E339C4E29"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/www.github.com\/randymarsh77\/casync",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6C8B0E2578136363F369AB00463942A9D727D3F6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/randymarsh77\/sockets",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6CE81E1B624FE87CFE286DC395997020DC557FF4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/randymarsh77\/async",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7BEE026E597E4C2D478A04EDE159FEC4025B0D57"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/randymarsh77\/pubsubcache",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "80F75E7A2BB39ACCE091CBB2EC04AE4AE0C603AE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/randymarsh77\/inmemorycache",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "866561609FC4DDDF37DA427655A70644CE7313D3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DanToml\/Jay.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8FE2B4BB55A3C9D7B3B78FD1E2302636E924BDDC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/randymarsh77\/scope",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9E2B1CDBC2CF00B36419E7CA6BB226A8A6107176"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/randymarsh77\/itunes",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9F23988BA633E46CC9F81941EA01508D899411B8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/randymarsh77\/using",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AB53A95ABBDEF88D1DB2C6A710EEF9E4317EB6A0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/randymarsh77\/fetch",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AB73A11E4B29B93660CF6247E76791E6E4E3A0CE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/randymarsh77\/streams",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D6013F96FF92FA92522D9441B27DE3E04159A52D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/randymarsh77\/wkinterop-gloss",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E03CE12C875E789E2BFB90879E7CC2D813D0D5BC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/randymarsh77\/time",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EDBB837CC9523B26FDD46406AD89803B25A0761D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/randymarsh77\/spectrum",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FE6ECA89E8020B4CCF7FCCAE719C110C0223C495"
+    }
+  ]
+}

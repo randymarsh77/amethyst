@@ -1,0 +1,5 @@
+module CAsync {
+    umbrella "/Users/MP/Source/Applications/Audio/amethyst/lib/Packages/CAsync-1.0.1/Sources/include"
+    link "CAsync"
+    export *
+}
