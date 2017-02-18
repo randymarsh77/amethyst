@@ -1,0 +1,10 @@
+import PackageDescription
+
+let package = Package(
+	name: "amethyst",
+	dependencies: [
+		.Package(url: "https://github.com/randymarsh77/async", majorVersion: 1),
+		.Package(url: "https://github.com/randymarsh77/awaitables", majorVersion: 0),
+		.Package(url: "https://github.com/randymarsh77/time", majorVersion: 2),
+	]
+)

@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:cli/CLI.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:players/iOS/Players.iOS.xcodeproj">
    </FileRef>
    <FileRef
