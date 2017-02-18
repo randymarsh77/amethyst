@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED5D5AA41E58B55100E09A01 /* Bonjour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5D5AA31E58B55100E09A01 /* Bonjour.framework */; };
+		ED5D5CCB1E58B60F00E09A01 /* Time.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5D5CCA1E58B60F00E09A01 /* Time.framework */; };
 		EDBBF40E1E4ACEA000ABF5D1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBBF40D1E4ACEA000ABF5D1 /* main.swift */; };
-		EDBBF4111E4ACEB500ABF5D1 /* Bonjour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBBF4101E4ACEB500ABF5D1 /* Bonjour.framework */; };
 		EDBBF4131E4ACEC000ABF5D1 /* Crystal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBBF4121E4ACEC000ABF5D1 /* Crystal.framework */; };
 		EDBBF4151E4ACECA00ABF5D1 /* Using.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBBF4141E4ACECA00ABF5D1 /* Using.framework */; };
-		EDBBF4171E4ACEDB00ABF5D1 /* Time.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBBF4161E4ACEDB00ABF5D1 /* Time.framework */; };
 		EDBBF4191E4ACEE100ABF5D1 /* Scope.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBBF4181E4ACEE100ABF5D1 /* Scope.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +28,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		ED59CCF81E4D86660068493B /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		ED5D5AA31E58B55100E09A01 /* Bonjour.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bonjour.framework; path = ../../DerivedData/Amethyst/Build/Products/Debug/Bonjour.framework; sourceTree = "<group>"; };
+		ED5D5CCA1E58B60F00E09A01 /* Time.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Time.framework; path = ../../DerivedData/Amethyst/Build/Products/Debug/Time.framework; sourceTree = "<group>"; };
 		EDBBF4021E4ACE5100ABF5D1 /* Servers.Content */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Servers.Content; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDBBF40D1E4ACEA000ABF5D1 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EDBBF4101E4ACEB500ABF5D1 /* Bonjour.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bonjour.framework; path = ../../DerivedData/amethyst/Build/Products/Debug/Bonjour.framework; sourceTree = "<group>"; };
@@ -42,11 +45,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED5D5CCB1E58B60F00E09A01 /* Time.framework in Frameworks */,
+				ED5D5AA41E58B55100E09A01 /* Bonjour.framework in Frameworks */,
 				EDBBF4191E4ACEE100ABF5D1 /* Scope.framework in Frameworks */,
-				EDBBF4171E4ACEDB00ABF5D1 /* Time.framework in Frameworks */,
 				EDBBF4151E4ACECA00ABF5D1 /* Using.framework in Frameworks */,
 				EDBBF4131E4ACEC000ABF5D1 /* Crystal.framework in Frameworks */,
-				EDBBF4111E4ACEB500ABF5D1 /* Bonjour.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +59,7 @@
 		EDBBF3F91E4ACE5100ABF5D1 = {
 			isa = PBXGroup;
 			children = (
+				ED59CCF81E4D86660068493B /* Package.swift */,
 				EDBBF40C1E4ACEA000ABF5D1 /* Sources */,
 				EDBBF4031E4ACE5100ABF5D1 /* Products */,
 				EDBBF40F1E4ACEB500ABF5D1 /* Frameworks */,
@@ -81,6 +85,8 @@
 		EDBBF40F1E4ACEB500ABF5D1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ED5D5CCA1E58B60F00E09A01 /* Time.framework */,
+				ED5D5AA31E58B55100E09A01 /* Bonjour.framework */,
 				EDBBF4181E4ACEE100ABF5D1 /* Scope.framework */,
 				EDBBF4161E4ACEDB00ABF5D1 /* Time.framework */,
 				EDBBF4141E4ACECA00ABF5D1 /* Using.framework */,

@@ -13,14 +13,15 @@
 		ED48BD9F1E48201E00FB0790 /* iTunes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED48BD9E1E48201E00FB0790 /* iTunes.framework */; };
 		ED48BDA11E48202E00FB0790 /* HTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED48BDA01E48202E00FB0790 /* HTTP.framework */; };
 		ED48BDA31E48207100FB0790 /* PubSubCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED48BDA21E48207100FB0790 /* PubSubCache.framework */; };
+		ED59CCEA1E4C22070068493B /* Bonjour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED59CCE91E4C22070068493B /* Bonjour.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		ED48BD8A1E481F2E00FB0790 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			dstPath = usr/share/man/man1;
+			dstSubfolderSpec = 10;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 1;
@@ -35,6 +36,8 @@
 		ED48BD9E1E48201E00FB0790 /* iTunes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iTunes.framework; path = ../../DerivedData/amethyst/Build/Products/Debug/iTunes.framework; sourceTree = "<group>"; };
 		ED48BDA01E48202E00FB0790 /* HTTP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HTTP.framework; path = ../../DerivedData/amethyst/Build/Products/Debug/HTTP.framework; sourceTree = "<group>"; };
 		ED48BDA21E48207100FB0790 /* PubSubCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PubSubCache.framework; path = ../../DerivedData/amethyst/Build/Products/Debug/PubSubCache.framework; sourceTree = "<group>"; };
+		ED59CCE91E4C22070068493B /* Bonjour.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bonjour.framework; path = "../../DerivedData/Amethyst/Build/Products/Debug-iphonesimulator/Bonjour.framework"; sourceTree = "<group>"; };
+		ED59CCF71E4D84960068493B /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED59CCEA1E4C22070068493B /* Bonjour.framework in Frameworks */,
 				ED48BDA31E48207100FB0790 /* PubSubCache.framework in Frameworks */,
 				ED48BDA11E48202E00FB0790 /* HTTP.framework in Frameworks */,
 				ED48BD9F1E48201E00FB0790 /* iTunes.framework in Frameworks */,
@@ -55,6 +59,7 @@
 		ED48BD831E481F2E00FB0790 = {
 			isa = PBXGroup;
 			children = (
+				ED59CCF71E4D84960068493B /* Package.swift */,
 				ED48BD961E481FA300FB0790 /* Sources */,
 				ED48BD8D1E481F2E00FB0790 /* Products */,
 				ED48BD9B1E48201300FB0790 /* Frameworks */,
@@ -81,6 +86,7 @@
 		ED48BD9B1E48201300FB0790 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ED59CCE91E4C22070068493B /* Bonjour.framework */,
 				ED48BDA21E48207100FB0790 /* PubSubCache.framework */,
 				ED48BDA01E48202E00FB0790 /* HTTP.framework */,
 				ED48BD9E1E48201E00FB0790 /* iTunes.framework */,
@@ -96,9 +102,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED48BD931E481F2E00FB0790 /* Build configuration list for PBXNativeTarget "meta-server" */;
 			buildPhases = (
+				ED59CCF01E4C25100068493B /* ShellScript */,
+				ED48BD8A1E481F2E00FB0790 /* CopyFiles */,
 				ED48BD881E481F2E00FB0790 /* Sources */,
 				ED48BD891E481F2E00FB0790 /* Frameworks */,
-				ED48BD8A1E481F2E00FB0790 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -142,6 +149,22 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ED59CCF01E4C25100068493B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = export;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ED48BD881E481F2E00FB0790 /* Sources */ = {
@@ -247,7 +270,10 @@
 		ED48BD941E481F2E00FB0790 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				DEVELOPMENT_TEAM = 5UFQ47TZPL;
+				FRAMEWORK_SEARCH_PATHS = "";
+				LD_RUNPATH_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -256,7 +282,10 @@
 		ED48BD951E481F2E00FB0790 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				DEVELOPMENT_TEAM = 5UFQ47TZPL;
+				FRAMEWORK_SEARCH_PATHS = "";
+				LD_RUNPATH_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
