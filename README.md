@@ -9,8 +9,16 @@ The project is built on top of [Crystal](https://github.com/randymarsh77/crystal
 - Run the CLI on a Mac to serve audio.
 - Run the client applications to play the audio.
 
+## Build and Run CLI
+
+```
+git clone https://github.com/randymarsh77/amethyst.git
+cd amethyst
+./scripts/build.sh
+./bin/amethyst
+```
+
 ## Caveats
-- The CLI is not built, so you actually need to launch each server manually ATM.
 - The only player implemented is iOS, and it's swift 3 requiring iOS 10+ :(
 
 ## Future
