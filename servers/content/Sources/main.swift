@@ -4,8 +4,6 @@ import Crystal
 import Time
 import Using
 
-Time.Initialize()
-
 let port = 1234
 let settings = BroadcastSettings(
 	name: "host",

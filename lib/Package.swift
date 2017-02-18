@@ -10,6 +10,7 @@ let package = Package(
 		.Package(url: "https://github.com/randymarsh77/itunes", majorVersion: 0),
 		.Package(url: "https://github.com/randymarsh77/inmemorycache", majorVersion: 0),
 		.Package(url: "https://github.com/randymarsh77/spectrum", majorVersion: 0),
+		.Package(url: "https://github.com/randymarsh77/time", majorVersion: 2),
 		.Package(url: "https://github.com/randymarsh77/using", majorVersion: 1),
 		.Package(url: "https://github.com/randymarsh77/wkinterop", majorVersion: 0),
 		.Package(url: "https://github.com/randymarsh77/wkinterop-gloss", majorVersion: 0),
