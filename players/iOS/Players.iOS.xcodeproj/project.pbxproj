@@ -15,21 +15,64 @@
 		ED0CD75C1E4AD3D600008A25 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0CD7561E4AD3D600008A25 /* State.swift */; };
 		ED0CD75D1E4AD3D600008A25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0CD7571E4AD3D600008A25 /* ViewController.swift */; };
 		ED0CD75E1E4AD3D600008A25 /* VisualizerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0CD7581E4AD3D600008A25 /* VisualizerViewModel.swift */; };
-		ED59CCB91E4AD8F40068493B /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED59CCB71E4AD8F40068493B /* Async.framework */; };
-		ED59CCBA1E4AD8F40068493B /* CAsync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED59CCB81E4AD8F40068493B /* CAsync.framework */; };
-		ED59CCC41E4ADA750068493B /* Bonjour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED59CCC31E4ADA750068493B /* Bonjour.framework */; };
-		ED59CCC61E4ADB3E0068493B /* Time.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED59CCC51E4ADB3E0068493B /* Time.framework */; };
-		ED59CCCA1E4B6DC10068493B /* Cancellation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED59CCC91E4B6DC10068493B /* Cancellation.framework */; };
 		ED59CCDD1E4C1AAF0068493B /* 1615553bda04164b929a71061dbe38f8.png in Resources */ = {isa = PBXBuildFile; fileRef = ED59CCD81E4C1AAF0068493B /* 1615553bda04164b929a71061dbe38f8.png */; };
 		ED59CCDE1E4C1AAF0068493B /* 540950efe4f28fb5d0eaa82d1cafc47b.png in Resources */ = {isa = PBXBuildFile; fileRef = ED59CCD91E4C1AAF0068493B /* 540950efe4f28fb5d0eaa82d1cafc47b.png */; };
 		ED59CCDF1E4C1AAF0068493B /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = ED59CCDA1E4C1AAF0068493B /* index.html */; };
 		ED59CCE01E4C1AAF0068493B /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = ED59CCDB1E4C1AAF0068493B /* index.js */; };
 		ED59CCE11E4C1AAF0068493B /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = ED59CCDC1E4C1AAF0068493B /* style.css */; };
-		ED59CCE81E4C21BD0068493B /* Fetch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED59CCE71E4C21BD0068493B /* Fetch.framework */; };
+		EDCB0C361E58F443002628F9 /* Using.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDCB0C341E58F43C002628F9 /* Using.framework */; };
+		EDCB0C371E58F443002628F9 /* Using.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EDCB0C341E58F43C002628F9 /* Using.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EDE0DD9D1E58F2580028B5ED /* Crystal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE0DD8F1E58F0100028B5ED /* Crystal.framework */; };
+		EDE0DD9E1E58F2580028B5ED /* Crystal.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EDE0DD8F1E58F0100028B5ED /* Crystal.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EDE0DD9F1E58F2580028B5ED /* WKInterop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE0DD8D1E58F00A0028B5ED /* WKInterop.framework */; };
+		EDE0DDA01E58F2580028B5ED /* WKInterop.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EDE0DD8D1E58F00A0028B5ED /* WKInterop.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EDE0DDA11E58F2580028B5ED /* Gloss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE0DD891E58F0050028B5ED /* Gloss.framework */; };
+		EDE0DDA21E58F2580028B5ED /* Gloss.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EDE0DD891E58F0050028B5ED /* Gloss.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EDE0DDA31E58F2580028B5ED /* GlossSerializer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE0DD8A1E58F0050028B5ED /* GlossSerializer.framework */; };
+		EDE0DDA41E58F2580028B5ED /* GlossSerializer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EDE0DD8A1E58F0050028B5ED /* GlossSerializer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EDE0DDA51E58F2580028B5ED /* Spectrum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE0DD871E58EFFF0028B5ED /* Spectrum.framework */; };
+		EDE0DDA61E58F2580028B5ED /* Spectrum.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EDE0DD871E58EFFF0028B5ED /* Spectrum.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EDE0DDA71E58F2580028B5ED /* Fetch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED59CCE71E4C21BD0068493B /* Fetch.framework */; };
+		EDE0DDA81E58F2580028B5ED /* Fetch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED59CCE71E4C21BD0068493B /* Fetch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EDE0DDA91E58F2580028B5ED /* Cancellation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED59CCC91E4B6DC10068493B /* Cancellation.framework */; };
+		EDE0DDAA1E58F2580028B5ED /* Cancellation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED59CCC91E4B6DC10068493B /* Cancellation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EDE0DDAB1E58F2580028B5ED /* Time.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED59CCC51E4ADB3E0068493B /* Time.framework */; };
+		EDE0DDAC1E58F2580028B5ED /* Time.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED59CCC51E4ADB3E0068493B /* Time.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EDE0DDAD1E58F2580028B5ED /* Bonjour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED59CCC31E4ADA750068493B /* Bonjour.framework */; };
+		EDE0DDAE1E58F2580028B5ED /* Bonjour.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED59CCC31E4ADA750068493B /* Bonjour.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EDE0DDAF1E58F2580028B5ED /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED59CCB71E4AD8F40068493B /* Async.framework */; };
+		EDE0DDB01E58F2580028B5ED /* Async.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED59CCB71E4AD8F40068493B /* Async.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EDE0DDB11E58F2590028B5ED /* CAsync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED59CCB81E4AD8F40068493B /* CAsync.framework */; };
+		EDE0DDB21E58F2590028B5ED /* CAsync.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED59CCB81E4AD8F40068493B /* CAsync.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		EDE0DDB31E58F2590028B5ED /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EDE0DDAE1E58F2580028B5ED /* Bonjour.framework in Embed Frameworks */,
+				EDE0DDA61E58F2580028B5ED /* Spectrum.framework in Embed Frameworks */,
+				EDE0DDAC1E58F2580028B5ED /* Time.framework in Embed Frameworks */,
+				EDE0DDA01E58F2580028B5ED /* WKInterop.framework in Embed Frameworks */,
+				EDE0DDAA1E58F2580028B5ED /* Cancellation.framework in Embed Frameworks */,
+				EDCB0C371E58F443002628F9 /* Using.framework in Embed Frameworks */,
+				EDE0DD9E1E58F2580028B5ED /* Crystal.framework in Embed Frameworks */,
+				EDE0DDA81E58F2580028B5ED /* Fetch.framework in Embed Frameworks */,
+				EDE0DDB21E58F2590028B5ED /* CAsync.framework in Embed Frameworks */,
+				EDE0DDA21E58F2580028B5ED /* Gloss.framework in Embed Frameworks */,
+				EDE0DDA41E58F2580028B5ED /* GlossSerializer.framework in Embed Frameworks */,
+				EDE0DDB01E58F2580028B5ED /* Async.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		ED0CD73D1E4AD34700008A25 /* Players.iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Players.iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0CD73D1E4AD34700008A25 /* Amethyst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amethyst.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0CD7451E4AD34700008A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED0CD7471E4AD34700008A25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED0CD74A1E4AD34700008A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +93,18 @@
 		ED59CCDB1E4C1AAF0068493B /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
 		ED59CCDC1E4C1AAF0068493B /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 		ED59CCE71E4C21BD0068493B /* Fetch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fetch.framework; path = "../../DerivedData/Amethyst/Build/Products/Debug-iphonesimulator/Fetch.framework"; sourceTree = "<group>"; };
+		EDCB0C341E58F43C002628F9 /* Using.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Using.framework; path = "../../DerivedData/Amethyst/Build/Products/Debug-iphoneos/Using.framework"; sourceTree = "<group>"; };
+		EDE0DD7B1E58EF640028B5ED /* Crystal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crystal.framework; path = ../../lib/build/Debug/Crystal.framework; sourceTree = "<group>"; };
+		EDE0DD7D1E58EF7B0028B5ED /* Using.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Using.framework; path = ../../lib/build/Debug/Using.framework; sourceTree = "<group>"; };
+		EDE0DD7F1E58EF8A0028B5ED /* WKInterop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WKInterop.framework; path = ../../lib/build/Debug/WKInterop.framework; sourceTree = "<group>"; };
+		EDE0DD811E58EF9B0028B5ED /* Gloss.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Gloss.framework; path = ../../lib/build/Debug/Gloss.framework; sourceTree = "<group>"; };
+		EDE0DD821E58EF9B0028B5ED /* GlossSerializer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GlossSerializer.framework; path = ../../lib/build/Debug/GlossSerializer.framework; sourceTree = "<group>"; };
+		EDE0DD851E58EFAE0028B5ED /* Spectrum.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Spectrum.framework; path = ../../lib/build/Debug/Spectrum.framework; sourceTree = "<group>"; };
+		EDE0DD871E58EFFF0028B5ED /* Spectrum.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Spectrum.framework; path = ../../DerivedData/Amethyst/Build/Products/Debug/Spectrum.framework; sourceTree = "<group>"; };
+		EDE0DD891E58F0050028B5ED /* Gloss.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Gloss.framework; path = ../../DerivedData/Amethyst/Build/Products/Debug/Gloss.framework; sourceTree = "<group>"; };
+		EDE0DD8A1E58F0050028B5ED /* GlossSerializer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GlossSerializer.framework; path = ../../DerivedData/Amethyst/Build/Products/Debug/GlossSerializer.framework; sourceTree = "<group>"; };
+		EDE0DD8D1E58F00A0028B5ED /* WKInterop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WKInterop.framework; path = ../../DerivedData/Amethyst/Build/Products/Debug/WKInterop.framework; sourceTree = "<group>"; };
+		EDE0DD8F1E58F0100028B5ED /* Crystal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crystal.framework; path = ../../DerivedData/Amethyst/Build/Products/Debug/Crystal.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +112,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED59CCE81E4C21BD0068493B /* Fetch.framework in Frameworks */,
-				ED59CCCA1E4B6DC10068493B /* Cancellation.framework in Frameworks */,
-				ED59CCC61E4ADB3E0068493B /* Time.framework in Frameworks */,
-				ED59CCC41E4ADA750068493B /* Bonjour.framework in Frameworks */,
-				ED59CCB91E4AD8F40068493B /* Async.framework in Frameworks */,
-				ED59CCBA1E4AD8F40068493B /* CAsync.framework in Frameworks */,
+				EDE0DDAD1E58F2580028B5ED /* Bonjour.framework in Frameworks */,
+				EDE0DDA51E58F2580028B5ED /* Spectrum.framework in Frameworks */,
+				EDE0DDAB1E58F2580028B5ED /* Time.framework in Frameworks */,
+				EDE0DD9F1E58F2580028B5ED /* WKInterop.framework in Frameworks */,
+				EDE0DDA91E58F2580028B5ED /* Cancellation.framework in Frameworks */,
+				EDE0DD9D1E58F2580028B5ED /* Crystal.framework in Frameworks */,
+				EDE0DDA71E58F2580028B5ED /* Fetch.framework in Frameworks */,
+				EDE0DDB11E58F2590028B5ED /* CAsync.framework in Frameworks */,
+				EDCB0C361E58F443002628F9 /* Using.framework in Frameworks */,
+				EDE0DDA11E58F2580028B5ED /* Gloss.framework in Frameworks */,
+				EDE0DDA31E58F2580028B5ED /* GlossSerializer.framework in Frameworks */,
+				EDE0DDAF1E58F2580028B5ED /* Async.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +143,7 @@
 		ED0CD73E1E4AD34700008A25 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED0CD73D1E4AD34700008A25 /* Players.iOS.app */,
+				ED0CD73D1E4AD34700008A25 /* Amethyst.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,6 +175,18 @@
 		ED59CCB61E4AD8F40068493B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EDCB0C341E58F43C002628F9 /* Using.framework */,
+				EDE0DD8F1E58F0100028B5ED /* Crystal.framework */,
+				EDE0DD8D1E58F00A0028B5ED /* WKInterop.framework */,
+				EDE0DD891E58F0050028B5ED /* Gloss.framework */,
+				EDE0DD8A1E58F0050028B5ED /* GlossSerializer.framework */,
+				EDE0DD871E58EFFF0028B5ED /* Spectrum.framework */,
+				EDE0DD851E58EFAE0028B5ED /* Spectrum.framework */,
+				EDE0DD811E58EF9B0028B5ED /* Gloss.framework */,
+				EDE0DD821E58EF9B0028B5ED /* GlossSerializer.framework */,
+				EDE0DD7F1E58EF8A0028B5ED /* WKInterop.framework */,
+				EDE0DD7D1E58EF7B0028B5ED /* Using.framework */,
+				EDE0DD7B1E58EF640028B5ED /* Crystal.framework */,
 				ED59CCE71E4C21BD0068493B /* Fetch.framework */,
 				ED59CCC91E4B6DC10068493B /* Cancellation.framework */,
 				ED59CCC51E4ADB3E0068493B /* Time.framework */,
@@ -140,21 +213,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ED0CD73C1E4AD34700008A25 /* Players.iOS */ = {
+		ED0CD73C1E4AD34700008A25 /* Amethyst */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED0CD74F1E4AD34700008A25 /* Build configuration list for PBXNativeTarget "Players.iOS" */;
+			buildConfigurationList = ED0CD74F1E4AD34700008A25 /* Build configuration list for PBXNativeTarget "Amethyst" */;
 			buildPhases = (
 				ED0CD7391E4AD34700008A25 /* Sources */,
 				ED0CD73A1E4AD34700008A25 /* Frameworks */,
 				ED0CD73B1E4AD34700008A25 /* Resources */,
+				EDE0DDB31E58F2590028B5ED /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Players.iOS;
+			name = Amethyst;
 			productName = "player-iOS";
-			productReference = ED0CD73D1E4AD34700008A25 /* Players.iOS.app */;
+			productReference = ED0CD73D1E4AD34700008A25 /* Amethyst.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -187,7 +261,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED0CD73C1E4AD34700008A25 /* Players.iOS */,
+				ED0CD73C1E4AD34700008A25 /* Amethyst */,
 			);
 		};
 /* End PBXProject section */
@@ -342,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 5UFQ47TZPL;
 				INFOPLIST_FILE = "player-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -355,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 5UFQ47TZPL;
 				INFOPLIST_FILE = "player-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -376,7 +452,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED0CD74F1E4AD34700008A25 /* Build configuration list for PBXNativeTarget "Players.iOS" */ = {
+		ED0CD74F1E4AD34700008A25 /* Build configuration list for PBXNativeTarget "Amethyst" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED0CD7501E4AD34700008A25 /* Debug */,
