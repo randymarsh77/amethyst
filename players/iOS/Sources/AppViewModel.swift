@@ -4,6 +4,7 @@ import Async
 import Bonjour
 import Cancellation
 import Crystal
+import Fetch
 import Scope
 import Sockets
 import Streams
@@ -28,7 +29,7 @@ public class AppModel
 		}
 
 		_ = _interop.registerRequestHandler(route: "cover") {
-			return ImageLoader.Load(URL(string: "http://10.0.1.33:8080/art")!);
+			return GetCover()
 		}
 
 		let session = AVAudioSession.sharedInstance()
@@ -122,6 +123,39 @@ public class AppModel
 	private var _visualizer: VisualizerViewModel
 	private var _player: V2AudioStreamPlayer
 	private var _playTokenSource: CancellationTokenSource?
+}
+
+func GetCover() -> Task<String>
+{
+	return async { (task: Task<String>) in
+		let qSettings = QuerySettings(
+			serviceType: .Unregistered(identifier: "_crystal-meta"),
+			serviceProtocol: .TCP,
+			domain: .AnyDomain
+		)
+
+		var result = ""
+		DispatchQueue.global(qos: .default).async
+		{
+			let service = await (Bonjour.FindAll(qSettings)).first
+			if (service != nil)
+			{
+				await (Bonjour.Resolve(service!))
+
+				let endpoint = service!.getEndpointAddress()!
+				let url = "http://\(endpoint.host)/art"
+				let data = await (Fetch(URL(string: url)!))
+				if (data != nil) {
+					result = "data:image/png;base64,\(data!.base64EncodedString())"
+				}
+			}
+
+			Async.Wake(task)
+		}
+
+		Async.Suspend()
+		return result
+	}
 }
 
 fileprivate class ImageLoader
