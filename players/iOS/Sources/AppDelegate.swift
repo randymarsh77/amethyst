@@ -15,7 +15,6 @@ import Bonjour
 class AppDelegate: UIResponder, UIApplicationDelegate
 {
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-		Time.Initialize()
 		Async.Schedule(q: DispatchQueue.main)
 		URLProtocol.registerClass(AssetLoader.self)
 		return true
