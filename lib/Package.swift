@@ -4,6 +4,7 @@ let package = Package(
     name: "Dependencies",
     dependencies: [
 		.Package(url: "https://github.com/randymarsh77/async", majorVersion: 1),
+		.Package(url: "https://github.com/randymarsh77/awaitables", majorVersion: 0),
 		.Package(url: "https://github.com/randymarsh77/bonjour", majorVersion: 1),
 		.Package(url: "https://github.com/randymarsh77/crystal", majorVersion: 0),
 		.Package(url: "https://github.com/randymarsh77/fetch", majorVersion: 0),

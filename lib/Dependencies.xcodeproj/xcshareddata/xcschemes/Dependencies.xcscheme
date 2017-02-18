@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1627"
+               BlueprintIdentifier = "OBJ_1632"
                BuildableName = "CAsync.framework"
                BlueprintName = "CAsync"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1635"
+               BlueprintIdentifier = "OBJ_1640"
                BuildableName = "Async.framework"
                BlueprintName = "Async"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -42,7 +42,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1645"
+               BlueprintIdentifier = "OBJ_1650"
                BuildableName = "IDisposable.framework"
                BlueprintName = "IDisposable"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -56,35 +56,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1652"
-               BuildableName = "Scope.framework"
-               BlueprintName = "Scope"
-               ReferencedContainer = "container:Dependencies.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1661"
-               BuildableName = "Bonjour.framework"
-               BlueprintName = "Bonjour"
-               ReferencedContainer = "container:Dependencies.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1676"
+               BlueprintIdentifier = "OBJ_1657"
                BuildableName = "Cancellation.framework"
                BlueprintName = "Cancellation"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -98,9 +70,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1685"
-               BuildableName = "Cast.framework"
-               BlueprintName = "Cast"
+               BlueprintIdentifier = "OBJ_1666"
+               BuildableName = "Scope.framework"
+               BlueprintName = "Scope"
                ReferencedContainer = "container:Dependencies.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -112,49 +84,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1692"
-               BuildableName = "CryptoSwift.framework"
-               BlueprintName = "CryptoSwift"
-               ReferencedContainer = "container:Dependencies.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1760"
-               BuildableName = "Time.framework"
-               BlueprintName = "Time"
-               ReferencedContainer = "container:Dependencies.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1767"
-               BuildableName = "Sockets.framework"
-               BlueprintName = "Sockets"
-               ReferencedContainer = "container:Dependencies.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1792"
+               BlueprintIdentifier = "OBJ_1675"
                BuildableName = "Streams.framework"
                BlueprintName = "Streams"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -168,7 +98,91 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1808"
+               BlueprintIdentifier = "OBJ_1691"
+               BuildableName = "Time.framework"
+               BlueprintName = "Time"
+               ReferencedContainer = "container:Dependencies.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_1698"
+               BuildableName = "Awaitables.framework"
+               BlueprintName = "Awaitables"
+               ReferencedContainer = "container:Dependencies.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_1721"
+               BuildableName = "Bonjour.framework"
+               BlueprintName = "Bonjour"
+               ReferencedContainer = "container:Dependencies.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_1736"
+               BuildableName = "Cast.framework"
+               BlueprintName = "Cast"
+               ReferencedContainer = "container:Dependencies.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_1743"
+               BuildableName = "CryptoSwift.framework"
+               BlueprintName = "CryptoSwift"
+               ReferencedContainer = "container:Dependencies.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_1811"
+               BuildableName = "Sockets.framework"
+               BlueprintName = "Sockets"
+               ReferencedContainer = "container:Dependencies.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_1836"
                BuildableName = "Crystal.framework"
                BlueprintName = "Crystal"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -182,7 +196,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1844"
+               BlueprintIdentifier = "OBJ_1872"
                BuildableName = "Fetch.framework"
                BlueprintName = "Fetch"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -196,7 +210,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1855"
+               BlueprintIdentifier = "OBJ_1883"
                BuildableName = "iTunes.framework"
                BlueprintName = "iTunes"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -210,7 +224,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1887"
+               BlueprintIdentifier = "OBJ_1915"
                BuildableName = "PubSubCache.framework"
                BlueprintName = "PubSubCache"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -224,7 +238,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1898"
+               BlueprintIdentifier = "OBJ_1926"
                BuildableName = "InMemoryCache.framework"
                BlueprintName = "InMemoryCache"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -238,7 +252,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1911"
+               BlueprintIdentifier = "OBJ_1939"
                BuildableName = "Surge.framework"
                BlueprintName = "Surge"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -252,7 +266,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1926"
+               BlueprintIdentifier = "OBJ_1954"
                BuildableName = "Spectrum.framework"
                BlueprintName = "Spectrum"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -266,7 +280,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1941"
+               BlueprintIdentifier = "OBJ_1969"
                BuildableName = "Using.framework"
                BlueprintName = "Using"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -280,7 +294,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1950"
+               BlueprintIdentifier = "OBJ_1978"
                BuildableName = "WKInterop.framework"
                BlueprintName = "WKInterop"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -294,7 +308,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1972"
+               BlueprintIdentifier = "OBJ_2000"
                BuildableName = "Gloss.framework"
                BlueprintName = "Gloss"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -308,7 +322,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1985"
+               BlueprintIdentifier = "OBJ_2013"
                BuildableName = "GlossSerializer.framework"
                BlueprintName = "GlossSerializer"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -322,7 +336,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2006"
+               BlueprintIdentifier = "OBJ_2034"
                BuildableName = "Socks.framework"
                BlueprintName = "Socks"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -336,7 +350,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2019"
+               BlueprintIdentifier = "OBJ_2047"
                BuildableName = "SocksCore.framework"
                BlueprintName = "SocksCore"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -350,7 +364,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2040"
+               BlueprintIdentifier = "OBJ_2068"
                BuildableName = "Redbird.framework"
                BlueprintName = "Redbird"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -364,7 +378,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2065"
+               BlueprintIdentifier = "OBJ_2093"
                BuildableName = "Core.framework"
                BlueprintName = "Core"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -378,7 +392,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2101"
+               BlueprintIdentifier = "OBJ_2129"
                BuildableName = "libc.framework"
                BlueprintName = "libc"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -392,7 +406,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2108"
+               BlueprintIdentifier = "OBJ_2136"
                BuildableName = "CLibreSSL.framework"
                BlueprintName = "CLibreSSL"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -406,7 +420,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2731"
+               BlueprintIdentifier = "OBJ_2759"
                BuildableName = "BCrypt.framework"
                BlueprintName = "BCrypt"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -420,7 +434,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2750"
+               BlueprintIdentifier = "OBJ_2778"
                BuildableName = "Cipher.framework"
                BlueprintName = "Cipher"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -434,7 +448,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2747"
+               BlueprintIdentifier = "OBJ_2775"
                BuildableName = "Essentials.framework"
                BlueprintName = "Essentials"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -448,7 +462,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2779"
+               BlueprintIdentifier = "OBJ_2807"
                BuildableName = "Hash.framework"
                BlueprintName = "Hash"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -462,7 +476,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2798"
+               BlueprintIdentifier = "OBJ_2826"
                BuildableName = "HMAC.framework"
                BlueprintName = "HMAC"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -476,7 +490,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2749"
+               BlueprintIdentifier = "OBJ_2777"
                BuildableName = "Random.framework"
                BlueprintName = "Random"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -490,7 +504,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2832"
+               BlueprintIdentifier = "OBJ_2860"
                BuildableName = "PathIndexable.framework"
                BlueprintName = "PathIndexable"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -504,7 +518,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2840"
+               BlueprintIdentifier = "OBJ_2868"
                BuildableName = "Polymorphic.framework"
                BlueprintName = "Polymorphic"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -518,7 +532,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2848"
+               BlueprintIdentifier = "OBJ_2876"
                BuildableName = "Node.framework"
                BlueprintName = "Node"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -532,7 +546,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2880"
+               BlueprintIdentifier = "OBJ_2908"
                BuildableName = "Fluent.framework"
                BlueprintName = "Fluent"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -546,7 +560,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2927"
+               BlueprintIdentifier = "OBJ_2955"
                BuildableName = "FluentTester.framework"
                BlueprintName = "FluentTester"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -560,7 +574,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2949"
+               BlueprintIdentifier = "OBJ_2977"
                BuildableName = "TLS.framework"
                BlueprintName = "TLS"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -574,7 +588,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2972"
+               BlueprintIdentifier = "OBJ_3000"
                BuildableName = "HTTP.framework"
                BlueprintName = "HTTP"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -588,7 +602,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3046"
+               BlueprintIdentifier = "OBJ_3074"
                BuildableName = "SMTP.framework"
                BlueprintName = "SMTP"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -602,7 +616,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3045"
+               BlueprintIdentifier = "OBJ_3073"
                BuildableName = "Transport.framework"
                BlueprintName = "Transport"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -616,7 +630,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3043"
+               BlueprintIdentifier = "OBJ_3071"
                BuildableName = "URI.framework"
                BlueprintName = "URI"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -630,7 +644,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3176"
+               BlueprintIdentifier = "OBJ_3204"
                BuildableName = "WebSockets.framework"
                BlueprintName = "WebSockets"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -644,7 +658,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3226"
+               BlueprintIdentifier = "OBJ_3254"
                BuildableName = "Console.framework"
                BlueprintName = "Console"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -658,7 +672,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3272"
+               BlueprintIdentifier = "OBJ_3300"
                BuildableName = "Jay.framework"
                BlueprintName = "Jay"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -672,7 +686,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3299"
+               BlueprintIdentifier = "OBJ_3327"
                BuildableName = "JSON.framework"
                BlueprintName = "JSON"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -686,7 +700,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3326"
+               BlueprintIdentifier = "OBJ_3354"
                BuildableName = "Turnstile.framework"
                BlueprintName = "Turnstile"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -700,7 +714,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3347"
+               BlueprintIdentifier = "OBJ_3375"
                BuildableName = "TurnstileCrypto.framework"
                BlueprintName = "TurnstileCrypto"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -714,7 +728,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3356"
+               BlueprintIdentifier = "OBJ_3384"
                BuildableName = "TurnstileWeb.framework"
                BlueprintName = "TurnstileWeb"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -728,7 +742,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3374"
+               BlueprintIdentifier = "OBJ_3402"
                BuildableName = "Leaf.framework"
                BlueprintName = "Leaf"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -742,7 +756,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3424"
+               BlueprintIdentifier = "OBJ_3452"
                BuildableName = "HTTPRouting.framework"
                BlueprintName = "HTTPRouting"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -756,7 +770,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3477"
+               BlueprintIdentifier = "OBJ_3505"
                BuildableName = "Routing.framework"
                BlueprintName = "Routing"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -770,7 +784,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3533"
+               BlueprintIdentifier = "OBJ_3561"
                BuildableName = "TypeSafeRouting.framework"
                BlueprintName = "TypeSafeRouting"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -784,7 +798,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3586"
+               BlueprintIdentifier = "OBJ_3614"
                BuildableName = "FormData.framework"
                BlueprintName = "FormData"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -798,7 +812,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3632"
+               BlueprintIdentifier = "OBJ_3660"
                BuildableName = "Multipart.framework"
                BlueprintName = "Multipart"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -812,7 +826,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3678"
+               BlueprintIdentifier = "OBJ_3706"
                BuildableName = "Auth.framework"
                BlueprintName = "Auth"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -826,7 +840,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3772"
+               BlueprintIdentifier = "OBJ_3800"
                BuildableName = "Cache.framework"
                BlueprintName = "Cache"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -840,7 +854,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3770"
+               BlueprintIdentifier = "OBJ_3798"
                BuildableName = "Cookies.framework"
                BlueprintName = "Cookies"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -854,7 +868,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3933"
+               BlueprintIdentifier = "OBJ_3961"
                BuildableName = "Sessions.framework"
                BlueprintName = "Sessions"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -868,7 +882,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_4015"
+               BlueprintIdentifier = "OBJ_4043"
                BuildableName = "Settings.framework"
                BlueprintName = "Settings"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -882,7 +896,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_4099"
+               BlueprintIdentifier = "OBJ_4127"
                BuildableName = "Vapor.framework"
                BlueprintName = "Vapor"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -896,7 +910,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_4275"
+               BlueprintIdentifier = "OBJ_4303"
                BuildableName = "Dependencies.framework"
                BlueprintName = "Dependencies"
                ReferencedContainer = "container:Dependencies.xcodeproj">
@@ -927,7 +941,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_1627"
+            BlueprintIdentifier = "OBJ_1632"
             BuildableName = "CAsync.framework"
             BlueprintName = "CAsync"
             ReferencedContainer = "container:Dependencies.xcodeproj">
