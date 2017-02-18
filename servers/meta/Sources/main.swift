@@ -1,8 +1,10 @@
+import Bonjour
 import Vapor
 //import Redbird
 import InMemoryCache
 import iTunes
 import HTTP
+import Using
 
 //let config = RedbirdConfig(address: "127.0.0.1", port: 6379)
 //let redis = try Redbird(config: config)
@@ -28,4 +30,14 @@ drop.get("/meta") { _ in
 //	return try redis.command("GET", params: ["current"]).toString()
 }
 
-drop.run()
+let port = 8080
+let settings = BroadcastSettings(
+	name: "CrystalMeta",
+	serviceType: .Unregistered(identifier: "_crystal-meta"),
+	serviceProtocol: .TCP,
+	domain: .AnyDomain,
+	port: Int32(port))
+
+using (Bonjour.Broadcast(settings)) {
+	drop.run()
+}
