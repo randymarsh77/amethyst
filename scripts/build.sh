@@ -1,6 +1,7 @@
 #! /bin/bash
 
 BASEDIR="$(dirname "$0")"
+echo "Basing from $BASEDIR"
 
 pushd $BASEDIR/../servers/content >> /dev/null
 echo "Building content-server from $(pwd)..."
@@ -18,7 +19,8 @@ swift build
 popd >> /dev/null
 
 pushd $BASEDIR >> /dev/null
-echo "Installing..."
+echo "Installing into $(pwd)..."
+cd ..
 rm -rf bin
 mkdir bin
 cd bin
