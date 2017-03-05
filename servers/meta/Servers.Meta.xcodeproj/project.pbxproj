@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED0C68581E6B89D900813B68 /* InMemoryCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED0C68571E6B89D900813B68 /* InMemoryCache.framework */; };
 		ED48BD991E481FA300FB0790 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED48BD971E481FA300FB0790 /* main.swift */; };
 		ED48BD9A1E481FA300FB0790 /* pollingwatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED48BD981E481FA300FB0790 /* pollingwatcher.swift */; };
 		ED48BD9D1E48201400FB0790 /* Vapor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED48BD9C1E48201400FB0790 /* Vapor.framework */; };
@@ -29,6 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		ED0C68571E6B89D900813B68 /* InMemoryCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InMemoryCache.framework; path = ../../lib/build/Debug/InMemoryCache.framework; sourceTree = "<group>"; };
 		ED48BD8C1E481F2E00FB0790 /* meta-server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "meta-server"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED48BD971E481FA300FB0790 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		ED48BD981E481FA300FB0790 /* pollingwatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pollingwatcher.swift; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED0C68581E6B89D900813B68 /* InMemoryCache.framework in Frameworks */,
 				ED59CCEA1E4C22070068493B /* Bonjour.framework in Frameworks */,
 				ED48BDA31E48207100FB0790 /* PubSubCache.framework in Frameworks */,
 				ED48BDA11E48202E00FB0790 /* HTTP.framework in Frameworks */,
@@ -86,6 +89,7 @@
 		ED48BD9B1E48201300FB0790 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ED0C68571E6B89D900813B68 /* InMemoryCache.framework */,
 				ED59CCE91E4C22070068493B /* Bonjour.framework */,
 				ED48BDA21E48207100FB0790 /* PubSubCache.framework */,
 				ED48BDA01E48202E00FB0790 /* HTTP.framework */,

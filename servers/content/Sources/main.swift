@@ -4,10 +4,10 @@ import Crystal
 import Time
 import Using
 
-let port = 1234
+let port = 7331
 let settings = BroadcastSettings(
-	name: "host",
-	serviceType: .Unregistered(identifier: "_crystal"),
+	name: "CrystalContent",
+	serviceType: .Unregistered(identifier: "_crystal-content"),
 	serviceProtocol: .TCP,
 	domain: .AnyDomain,
 	port: Int32(port))

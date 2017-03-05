@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED0C68511E5B5B9C00813B68 /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C68501E5B5B9C00813B68 /* config.swift */; };
+		ED0C68531E5B5C2100813B68 /* Gloss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED0C68521E5B5C2100813B68 /* Gloss.framework */; };
+		ED0C68561E6B5A4100813B68 /* .amethyst in CopyFiles */ = {isa = PBXBuildFile; fileRef = ED0C68551E6B4D4C00813B68 /* .amethyst */; };
 		ED5D5CD31E58C9E300E09A01 /* asyncprocess.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5D5CD21E58C9E300E09A01 /* asyncprocess.swift */; };
 		ED5D5CD61E58C9FD00E09A01 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5D5CD51E58C9FD00E09A01 /* Async.framework */; };
 		ED5D5F091E58D5B100E09A01 /* Awaitables.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5D5F081E58D5B100E09A01 /* Awaitables.framework */; };
@@ -14,7 +17,23 @@
 		OBJ_18 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* main.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		ED0C68541E6B4D0700813B68 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				ED0C68561E6B5A4100813B68 /* .amethyst in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		ED0C68501E5B5B9C00813B68 /* config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
+		ED0C68521E5B5C2100813B68 /* Gloss.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Gloss.framework; path = ../lib/build/Debug/Gloss.framework; sourceTree = "<group>"; };
+		ED0C68551E6B4D4C00813B68 /* .amethyst */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .amethyst; sourceTree = "<group>"; };
 		ED5D5CD21E58C9E300E09A01 /* asyncprocess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = asyncprocess.swift; sourceTree = "<group>"; };
 		ED5D5CD51E58C9FD00E09A01 /* Async.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Async.framework; path = ../DerivedData/Amethyst/Build/Products/Debug/Async.framework; sourceTree = "<group>"; };
 		ED5D5F041E58D57A00E09A01 /* Awaitables.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Awaitables.framework; path = ../lib/build/Debug/Awaitables.framework; sourceTree = "<group>"; };
@@ -31,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
+				ED0C68531E5B5C2100813B68 /* Gloss.framework in Frameworks */,
 				ED5D5F0B1E58D5E700E09A01 /* Time.framework in Frameworks */,
 				ED5D5F091E58D5B100E09A01 /* Awaitables.framework in Frameworks */,
 				ED5D5CD61E58C9FD00E09A01 /* Async.framework in Frameworks */,
@@ -43,6 +63,7 @@
 		ED5D5CD41E58C9FD00E09A01 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ED0C68521E5B5C2100813B68 /* Gloss.framework */,
 				ED5D5F0A1E58D5E700E09A01 /* Time.framework */,
 				ED5D5F081E58D5B100E09A01 /* Awaitables.framework */,
 				ED5D5F061E58D58900E09A01 /* Awaitables.framework */,
@@ -60,15 +81,15 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
+				ED0C68551E6B4D4C00813B68 /* .amethyst */,
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_11 /* Products */,
 				ED5D5CD41E58C9FD00E09A01 /* Frameworks */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -76,6 +97,7 @@
 			children = (
 				OBJ_9 /* main.swift */,
 				ED5D5CD21E58C9E300E09A01 /* asyncprocess.swift */,
+				ED0C68501E5B5B9C00813B68 /* config.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -89,6 +111,7 @@
 			buildPhases = (
 				OBJ_17 /* Sources */,
 				OBJ_19 /* Frameworks */,
+				ED0C68541E6B4D0700813B68 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -114,7 +137,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_11 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				ED0C68511E5B5B9C00813B68 /* config.swift in Sources */,
 				ED5D5CD31E58C9E300E09A01 /* asyncprocess.swift in Sources */,
 				OBJ_18 /* main.swift in Sources */,
 			);

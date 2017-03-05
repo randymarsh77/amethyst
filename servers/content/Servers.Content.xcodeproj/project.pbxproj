@@ -31,7 +31,7 @@
 		ED59CCF81E4D86660068493B /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		ED5D5AA31E58B55100E09A01 /* Bonjour.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bonjour.framework; path = ../../DerivedData/Amethyst/Build/Products/Debug/Bonjour.framework; sourceTree = "<group>"; };
 		ED5D5CCA1E58B60F00E09A01 /* Time.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Time.framework; path = ../../DerivedData/Amethyst/Build/Products/Debug/Time.framework; sourceTree = "<group>"; };
-		EDBBF4021E4ACE5100ABF5D1 /* Servers.Content */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Servers.Content; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDBBF4021E4ACE5100ABF5D1 /* content-server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "content-server"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDBBF40D1E4ACEA000ABF5D1 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EDBBF4101E4ACEB500ABF5D1 /* Bonjour.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bonjour.framework; path = ../../DerivedData/amethyst/Build/Products/Debug/Bonjour.framework; sourceTree = "<group>"; };
 		EDBBF4121E4ACEC000ABF5D1 /* Crystal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crystal.framework; path = ../../DerivedData/amethyst/Build/Products/Debug/Crystal.framework; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 		EDBBF4031E4ACE5100ABF5D1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EDBBF4021E4ACE5100ABF5D1 /* Servers.Content */,
+				EDBBF4021E4ACE5100ABF5D1 /* content-server */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,9 +99,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EDBBF4011E4ACE5100ABF5D1 /* Servers.Content */ = {
+		EDBBF4011E4ACE5100ABF5D1 /* content-server */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDBBF4091E4ACE5100ABF5D1 /* Build configuration list for PBXNativeTarget "Servers.Content" */;
+			buildConfigurationList = EDBBF4091E4ACE5100ABF5D1 /* Build configuration list for PBXNativeTarget "content-server" */;
 			buildPhases = (
 				EDBBF3FE1E4ACE5100ABF5D1 /* Sources */,
 				EDBBF3FF1E4ACE5100ABF5D1 /* Frameworks */,
@@ -111,9 +111,9 @@
 			);
 			dependencies = (
 			);
-			name = Servers.Content;
+			name = "content-server";
 			productName = "content-server";
-			productReference = EDBBF4021E4ACE5100ABF5D1 /* Servers.Content */;
+			productReference = EDBBF4021E4ACE5100ABF5D1 /* content-server */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -145,7 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EDBBF4011E4ACE5100ABF5D1 /* Servers.Content */,
+				EDBBF4011E4ACE5100ABF5D1 /* content-server */,
 			);
 		};
 /* End PBXProject section */
@@ -280,7 +280,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDBBF4091E4ACE5100ABF5D1 /* Build configuration list for PBXNativeTarget "Servers.Content" */ = {
+		EDBBF4091E4ACE5100ABF5D1 /* Build configuration list for PBXNativeTarget "content-server" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EDBBF40A1E4ACE5100ABF5D1 /* Debug */,
