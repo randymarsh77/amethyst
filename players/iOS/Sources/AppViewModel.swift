@@ -158,32 +158,6 @@ func GetCover() -> Task<String>
 	}
 }
 
-fileprivate class ImageLoader
-{
-	public static func Load(_ url: URL) -> Task<String> {
-		return async { (asyncTask: Task<String>) in
-			let urlRequest: NSMutableURLRequest = NSMutableURLRequest(url: url)
-			let session = URLSession.shared
-			var result: String = ""
-			let task = session.dataTask(with: urlRequest as URLRequest) {
-				(data, response, error) -> Void in
-
-				if data != nil {
-					result = "data:image/png;base64,\(data!.base64EncodedString())"
-				}
-				Async.Wake(asyncTask)
-			}
-
-			DispatchQueue.global().async {
-				task.resume()
-			}
-
-			Async.Suspend()
-			return result
-		}
-	}
-}
-
 fileprivate func Cancellation(_ token: CancellationToken) -> Task<Void> {
 	let task = async {
 		Async.Suspend()
