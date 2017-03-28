@@ -143,7 +143,7 @@ func GetCover() -> Task<String>
 				await (Bonjour.Resolve(service!))
 
 				let endpoint = service!.getEndpointAddress()!
-				let url = "http://\(endpoint.host)/art"
+				let url = "http://\(endpoint.host):\(endpoint.port)/art"
 				let data = await (Fetch(URL(string: url)!))
 				if (data != nil) {
 					result = "data:image/png;base64,\(data!.base64EncodedString())"
