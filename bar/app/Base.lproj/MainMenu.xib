@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11542" systemVersion="15F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11542"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="Voe-Tx-rLC" id="GzC-gU-4Uq"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Bar" customModuleProvider="target"/>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <customObject id="u8z-A2-kMh" customClass="StatusMenuController" customModule="Bar" customModuleProvider="target">
+            <connections>
+                <outlet property="contentStatusItem" destination="z6C-Cv-h90" id="W0G-uV-P7b"/>
+                <outlet property="controlItem" destination="ZlL-gh-bDI" id="PIH-MS-2oI"/>
+                <outlet property="metaStatusItem" destination="Jmf-zK-8Ta" id="6cN-mx-WRm"/>
+                <outlet property="statusMenu" destination="nAO-Dd-TdD" id="zfU-b5-Pv4"/>
+            </connections>
+        </customObject>
+        <menu id="nAO-Dd-TdD">
+            <items>
+                <menuItem title="Item" id="z6C-Cv-h90" userLabel="ContentStatus">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Item" id="Jmf-zK-8Ta" userLabel="MetaStatus">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="cm4-wp-CPa"/>
+                <menuItem title="Item" id="ZlL-gh-bDI" userLabel="Control">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="togglePlayPause:" target="u8z-A2-kMh" id="125-pM-XgA"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="8yZ-a7-Oa8"/>
+                <menuItem title="Quit" id="fdI-L1-Pnl" userLabel="Quit">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="quitClicked:" target="u8z-A2-kMh" id="H3Y-QD-FzT"/>
+                    </connections>
+                </menuItem>
+            </items>
+        </menu>
+    </objects>
+</document>
