@@ -19,6 +19,8 @@ public class AsyncProcess
 		_process.launch()
 	}
 
+	public var pid: Int32 { return _process.processIdentifier }
+
 	public var exited: Task<Void>
 	{
 		return async { (task: Task<Void>) in
