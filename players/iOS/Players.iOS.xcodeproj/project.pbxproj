@@ -43,6 +43,7 @@
 		ED0C684C1E5967E400813B68 /* Sockets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED0C684A1E5967E400813B68 /* Sockets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ED0C684E1E59680600813B68 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED0C684D1E59680600813B68 /* CryptoSwift.framework */; };
 		ED0C684F1E59680600813B68 /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED0C684D1E59680600813B68 /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ED0C685A1E6B90A700813B68 /* Awaitables.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED0C68591E6B90A700813B68 /* Awaitables.framework */; };
 		ED0CD7461E4AD34700008A25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0CD7441E4AD34700008A25 /* Main.storyboard */; };
 		ED0CD7481E4AD34700008A25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED0CD7471E4AD34700008A25 /* Assets.xcassets */; };
 		ED0CD74B1E4AD34700008A25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0CD7491E4AD34700008A25 /* LaunchScreen.storyboard */; };
@@ -111,6 +112,7 @@
 		ED0C68471E5967B600813B68 /* GlossSerializer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GlossSerializer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0C684A1E5967E400813B68 /* Sockets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Sockets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0C684D1E59680600813B68 /* CryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0C68591E6B90A700813B68 /* Awaitables.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Awaitables.framework; path = ../../DerivedData/Amethyst/Build/Products/Debug/Awaitables.framework; sourceTree = "<group>"; };
 		ED0CD73D1E4AD34700008A25 /* Amethyst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amethyst.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0CD7451E4AD34700008A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED0CD7471E4AD34700008A25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED0C685A1E6B90A700813B68 /* Awaitables.framework in Frameworks */,
 				ED0C68301E5967B600813B68 /* Bonjour.framework in Frameworks */,
 				ED0C683C1E5967B600813B68 /* Surge.framework in Frameworks */,
 				ED0C68211E5967B600813B68 /* IDisposable.framework in Frameworks */,
@@ -204,6 +207,7 @@
 		ED59CCB61E4AD8F40068493B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ED0C68591E6B90A700813B68 /* Awaitables.framework */,
 				ED0C684D1E59680600813B68 /* CryptoSwift.framework */,
 				ED0C684A1E5967E400813B68 /* Sockets.framework */,
 				ED0C68471E5967B600813B68 /* GlossSerializer.framework */,
