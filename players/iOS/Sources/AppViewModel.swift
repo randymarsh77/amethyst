@@ -41,7 +41,7 @@ public class AppModel
 
 	private func tryConnect() {
 		let qSettings = QuerySettings(
-			serviceType: .Unregistered(identifier: "_crystal"),
+			serviceType: .Unregistered(identifier: "_crystal-content"),
 			serviceProtocol: .TCP,
 			domain: .AnyDomain
 		)
