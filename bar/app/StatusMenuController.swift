@@ -8,6 +8,7 @@ enum Status {
 class StatusMenuController: NSObject
 {
 	var status: Status = .Idle
+	let app = AppModel()
 
 	@IBOutlet weak var statusMenu: NSMenu!
 	@IBOutlet weak var contentStatusItem: NSMenuItem!
@@ -20,7 +21,12 @@ class StatusMenuController: NSObject
 	}
 	
 	@IBAction func togglePlayPause(_ sender: Any) {
-		status = status == .Idle ? .Serving : .Idle
+		if (app.contentServer != nil) {
+			app.stopContentServer()
+		} else {
+			app.startContentServer()
+		}
+
 		updateStatus()
 	}
 
@@ -33,12 +39,26 @@ class StatusMenuController: NSObject
 		StatusItem.image = icon
 		StatusItem.menu = statusMenu
 
+		initialize()
 		updateStatus()
 	}
 
 	private func updateStatus() {
+		status = app.contentServer != nil ? .Serving : .Idle
 		contentStatusItem.title = "Status: \(status == .Idle ? "Idle" : "Serving")"
 		metaStatusItem.title = "Metadata Source: iTunes"
 		controlItem.title = status == .Idle ? "Serve" : "Stop"
+	}
+
+	private func initialize()
+	{
+		DispatchQueue.global().async {
+			self.app.loadConfig()
+			self.app.startContentServer()
+
+			DispatchQueue.main.async {
+				self.updateStatus()
+			}
+		}
 	}
 }
