@@ -1,5 +1,5 @@
 # Amethyst
-A home audio solution. Kind of.
+A home audio solution. Kind of. More like, a home audio solution for the future; currently a WIP.
 
 ## Overview
 Amethyst is a bundled deployment for wireless, synchronized audio playback to multiple clients.
