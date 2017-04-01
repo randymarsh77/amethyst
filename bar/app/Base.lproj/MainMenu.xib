@@ -37,6 +37,25 @@
                         <action selector="togglePlayPause:" target="u8z-A2-kMh" id="125-pM-XgA"/>
                     </connections>
                 </menuItem>
+                <menuItem title="Change Metadata Source" id="qqD-Cf-1GK">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Change Metadata Source" id="JNh-nx-hvW" userLabel="Meta Sources">
+                        <items>
+                            <menuItem title="iTunes" id="SAz-4T-FQw" userLabel="iTunes">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="selectiTunesMetaSource:" target="u8z-A2-kMh" id="P0W-X1-Ybq"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="None" id="Ris-R7-np0" userLabel="None">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="selectNoneMetaSource:" target="u8z-A2-kMh" id="PPK-Dd-yAt"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
                 <menuItem isSeparatorItem="YES" id="8yZ-a7-Oa8"/>
                 <menuItem title="Quit" id="fdI-L1-Pnl" userLabel="Quit">
                     <modifierMask key="keyEquivalentModifierMask"/>
