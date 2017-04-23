@@ -3,6 +3,8 @@
 BASEDIR="$(dirname "$0")"
 echo "Basing from $BASEDIR"
 
+set -e
+
 pushd $BASEDIR/../servers/content >> /dev/null
 echo "Building content-server from $(pwd)..."
 swift build
