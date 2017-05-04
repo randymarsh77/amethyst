@@ -13,7 +13,7 @@ let settings = BroadcastSettings(
 	port: Int32(port))
 
 using (AudioStreamGenerator()) { (generator: AudioStreamGenerator) in
-using (StreamServer(stream: generator.stream, port: UInt16(port))) {
+using (try! StreamServer(stream: generator.stream, port: UInt16(port))) {
 using (Bonjour.Broadcast(settings)) {
 	getchar()
 }}}
