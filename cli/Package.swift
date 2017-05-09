@@ -1,7 +1,7 @@
 import PackageDescription
 
 let package = Package(
-	name: "amethyst",
+	name: "Amethyst-CLI",
 	dependencies: [
 		.Package(url: "https://github.com/randymarsh77/async", majorVersion: 1),
 		.Package(url: "https://github.com/randymarsh77/asyncprocess", majorVersion: 0),

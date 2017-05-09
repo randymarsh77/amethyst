@@ -1,7 +1,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "meta-server",
+    name: "Amethyst-MetaServer",
     dependencies: [
 		.Package(url: "https://github.com/randymarsh77/bonjour", majorVersion: 1),
 		.Package(url: "https://github.com/randymarsh77/itunes", majorVersion: 0),
