@@ -5,6 +5,11 @@ echo "Basing from $BASEDIR"
 
 set -e
 
+pushd $BASEDIR/../lib >> /dev/null
+echo "Building all dependencies from $(pwd)..."
+swift build
+popd >> /dev/null
+
 pushd $BASEDIR/../servers/content >> /dev/null
 echo "Building content-server from $(pwd)..."
 swift build
