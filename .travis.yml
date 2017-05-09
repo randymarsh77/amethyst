@@ -10,9 +10,9 @@ script:
   - ./scripts/build.sh
 
 after_success:
-  - ./scripts/execute-on-packages.sh swiftx update-build-config
-  - ./scripts/execute-on-packages.sh swiftx update-dependency-graph
-  - ./scripts/execute-on-packages.sh swiftx trigger-downstream-builds
+  - ./scripts/exec-on-packages.sh swiftx update-build-config
+  - ./scripts/exec-on-packages.sh swiftx update-dependency-graph
+  - ./scripts/exec-on-packages.sh swiftx trigger-downstream-builds
 
 after_failure:
-  - ./scripts/execute-on-packages.sh swiftx trigger-downstream-builds --force
+  - ./scripts/exec-on-packages.sh swiftx trigger-downstream-builds --force
