@@ -5,6 +5,7 @@ node_js:
 
 before_script:
   - npm install -g swiftx
+  - export SWIFTX_CONFIG_PATH=builds/swift/config
 
 script:
   - ./scripts/build.sh
